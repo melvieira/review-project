@@ -1,61 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    box-sizing: border-box;
-     }
-   
-   body {
-     background-color: #64A6BD;
-     justify-content: center;
-     align-items: center;
-     display: flex;
-     min-height: 100vh;
-       }
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrcVIT9d0c8.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+body {
+  background: url(https://images.pexels.com/photos/39584/censorship-limitations-freedom-of-expression-restricted-39584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
 .box {
-    background-color: #efefef;
-    padding-left: 60px;
-    padding: 60px;
+  background-color: #f9cfa2;
+  padding-left: 40px;
+  padding: 40px;
+  border-radius: 15px;
 }
 
 .box h2 {
-    margin-bottom: 40px;
-   text-align: center;
-   font-size: 26px;
-   color: #c2095a;
-   font-family: sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+  color: black;
+  font-family: "Raleway", sans-serif;
 }
 input {
-    padding: 20px;
-    user-select: none;
-    height: 50px;
-    width: 400px;
-    border-radius: 6px;
-    border: none;
-    border: 2px solid #64A6BD;
-    outline: none;
-    font-size: 22px;
+  padding: 20px;
+  user-select: none;
+  height: 50px;
+  width: 400px;
+  border-radius: 6px;
+  border: none;
+  border: 2px solid #c4c4c4;
+  outline: none;
+  font-size: 22px;
 }
- input ::placeholder {
-     font-size: 26px;
- }
+input ::placeholder {
+  font-size: 26px;
+}
 
- #btnGen {
-     display: flex;
-     font-size: 20px;
-     font-weight: 500;
-     background-color: #64A6BD;
-     color: #c2095a;
-     justify-content: center;
-     cursor: pointer;
-     text-align: center;
-     margin-top: 40px;
-     width: 150px;
-     height: 50px;
-     padding-top: 10px;
-     margin-left: 30%;
- }
- #btnGen:hover {
-     color: #f5ff90;
-     background-color: #136f63;
- }
+#btnGen {
+  display: flex;
+  font-size: 20px;
+  background-color: white;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  width: 150px;
+  height: 50px;
+  padding-top: 10px;
+  margin-left: 30%;
+  border-radius: 5px;
+}
+#btnGen:hover {
+  color: black;
+  background-color: #f4b953;
+}
