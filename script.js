@@ -20,12 +20,8 @@ const pwLength = 15;
 
 function addNewPassword() {
     let password ='';
-    for (let i=0; i <= charset.length; i++) {
-            while (password.length <= pwLength) {
-                let randomNumber = Math.floor(Math.random() * charset.length)
-                i = randomNumber;
-                password += charset[i];
-            }
+    for (let i=0; i <= pwLength; i++) {
+        password += charset[Math.floor(Math.random() * charset.length)]
     } return password;
 };
 
